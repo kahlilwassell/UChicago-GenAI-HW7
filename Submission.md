@@ -12,22 +12,20 @@ Documents included:
 - **PDF**
   - **Advanced-1-Marathon-Printable.pdf** — structured marathon training plan with weekly mileage progression and long-run scheduling.
 
-- **Markdown (.md)**
+- **Markdown**
   - **vo2_max.md** — deep dive into VO2 max, covering physiology, limiting factors, measurement protocols, and training methods.
   - **lactate_threshold.md** — detailed explanation of lactate threshold, metabolic contributors, testing approaches, and strategies to raise LT.
 
-- **Text (.txt)**
+- **Text**
   - **hyrox_endurance_vs_running_endurance.txt** — analysis of the differences between Hyrox endurance demands and traditional distance running.
   - **running_shoe_biomechanics.txt** — overview of midsole foams, carbon plates, stack height, stability design, and injury considerations.
   - **1984.txt** — included as a “wildcard” long form text to test retrieval on non running content; it provides thematic material related to surveillance, authoritarianism, power dynamics, and high level dystopian concepts.
-
-This mix ensured the system had enough variety to evaluate both retrieval accuracy and file type flexibility mirroring how real world RAG systems are used.
 
 ---
 
 ## 2. Example Questions and System Behavior
 
-I tested the Streamlit RAG interface with queries drawn from the domains represented in the document set. Below are sample questions with notes on retrieval behavior and answer quality.
+I tested the Streamlit RAG interface. Below are sample questions with notes on retrieval behavior and answer quality.
 
 ### VO2 Max
 - **Question:** “What factors determine VO2 max and how can training improve it?”
@@ -64,10 +62,9 @@ Even though the system worked well overall, a few limitations stood out.
 Some explanations spanned multiple paragraphs but got split across chunk boundaries. As a result, the model occasionally answered from an incomplete conceptual slice.
 
 ### No Conversational Memory
-Each query was processed independently.  
-Follow up questions like “How does that affect marathon pacing?” weren’t contextually linked to previous answers.
+Each query was processed independently.Follow up questions like “How does that affect marathon pacing?” weren’t contextually linked to previous answers.
 
-## Context-Interpretation Quirks
+## Context Interpretation Quirks
 Because the texts mixes technical running documents with the full text of 1984, the system sometimes interprets questions in unexpected ways. When a query includes words that appear in the novel (like “stars,” “astronomy,” or “planets”), the similarity search may surface literary passages instead of scientific explanations. This leads to answers that blend accurate information with unrelated narrative context. It’s not hallucination, but rather a side effect of embedding based retrieval in a small, mixed-domain dataset where semantic overlap can be misleading.
 
 ---
