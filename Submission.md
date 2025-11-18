@@ -5,8 +5,6 @@
 
 ## 1. Documents Used
 
-For this assignment I intentionally included documents across multiple file types to fully test the system’s ability to handle varied inputs. Instead of relying solely on PDFs, I incorporated Markdown and plain text files to meet the mixed file format requirement.
-
 Documents included...
 
 - **PDF**
