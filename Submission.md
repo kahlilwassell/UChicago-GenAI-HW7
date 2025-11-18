@@ -1,4 +1,4 @@
-# Homework 7.1 — Vector RAG with Streamlit  
+# Homework 7.1 - Vector RAG with Streamlit  
 ### Kahlil Wassell
 
 ---
