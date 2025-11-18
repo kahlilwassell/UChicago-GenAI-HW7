@@ -1,0 +1,73 @@
+RUNNING SHOE BIOMECHANICS — DETAILED ANALYSIS
+------------------------------------------------
+
+Running shoe biomechanics integrates principles of physics, materials science, and human gait mechanics to optimize performance and reduce injury risk.
+
+===================
+1. MIDSOLE FOAM
+===================
+
+Modern foams use:
+- PEBA (e.g., ZoomX, Lightstrike Pro)
+- TPU blends (e.g., Boost)
+- EVA variants
+
+Key properties:
+- **Energy return**
+- **Compression resistance**
+- **Density**
+- **Resilience over repeated loading cycles**
+
+========================
+2. CARBON PLATE DYNAMICS
+========================
+
+Carbon plates act as:
+- Lever arms that reduce ankle dorsiflexion
+- Structures that stiffen the forefoot
+- Tools to shift work from small foot muscles to larger proximal musculature
+
+Benefits:
+- Improved running economy (1–4%)
+- Reduced fatigue in calf/ankle complex
+
+=========================
+3. STACK HEIGHT & GEOMETRY
+=========================
+
+High-stack shoes reduce:
+- Ground reaction force impact
+- Peak tibial acceleration
+
+Rockers increase:
+- Forward propulsion
+- Smooth transition from heel to toe-off
+
+============================
+4. PRONATION & STABILITY
+============================
+
+Old-school pronation control is outdated.  
+Modern stability uses:
+- Wider base  
+- Rearfoot geometry  
+- Sidewalls  
+- Dual-density foams  
+
+Stability ≠ motion control anymore; it is *guidance*.
+
+====================================
+5. INJURY CONSIDERATIONS
+====================================
+
+Different design features affect injury risk:
+- Higher stack height → lower impact loading but instability risk  
+- Stiff plates → reduced calf work but increased hip demand  
+- Minimalist shoes → increased foot intrinsic activation  
+
+====================================
+TAKEAWAY
+====================================
+
+Running shoe biomechanics is a system of interacting variables—foam, geometry, stiffness, and fit—and optimizing performance depends on balancing energy return, stability, and muscle loading.
+
