@@ -98,7 +98,7 @@ Helpful Answer:
 
     llm = ChatOpenAI(temperature=0.0)
 
-    def chain(inputs: dict):
+    def chain(inputs):
         docs = inputs["input_documents"]
         question = inputs["question"]
 
@@ -116,9 +116,9 @@ Helpful Answer:
     return chain
 
 
-# Retrieve + answer
-def get_answer(query: str, chain, vectorstore: FAISS):
-    retrieved_docs = vectorstore.similarity_search(query, k=4)
+# Retrieve and answer
+def get_answer(query, chain, vectorstore):
+    retrieved_docs = vectorstore.similarity_search(query, k=2)
 
     results = chain({"input_documents": retrieved_docs, "question": query})
 
