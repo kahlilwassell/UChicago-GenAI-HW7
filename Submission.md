@@ -25,7 +25,7 @@ Documents included...
 
 ### VO2 Max
 - **Question:** “What factors determine VO2 max and how can training improve it?”
-- **Behavior:** Retrieved key sections from vo2_max.md covering cardiac output, mitochondrial density, genetic limits, and typical training interventions.
+- **Behavior:** Retrieved key sections from vo2_max.md covering cardiac output, and other relevant topics.
 - **Quality:** The answer stayed grounded in the provided material, avoided hallucinations, and tied physiological factors directly to training methods.
 
 ### Lactate Threshold
@@ -58,7 +58,7 @@ Even though the system worked well overall, a few limitations stood out.
 Some explanations spanned multiple paragraphs but got split across chunk boundaries. As a result, the model occasionally answered from an incomplete conceptual slice.
 
 ### No Conversational Memory
-Each search was processed independently.Follow up questions like “How does that affect marathon pacing?” weren’t contextually linked to previous answers.
+Each search is processed independently.Follow up questions like “How does that affect marathon pacing?” aren’t contextually linked to previous answers.
 
 ### Context Interpretation Quirks
 Because the texts mixes technical running documents with the full text of 1984, the system sometimes interprets questions in unexpected ways. When a search includes words that appear in the novel (like “stars,” “astronomy,” or “planets”), the similarity search may surface literary passages instead of scientific explanations. This leads to answers that blend accurate information with unrelated narrative context. It’s not hallucination, but rather a side effect of embedding based retrieval in a small, mixed domain dataset where semantic overlap can be misleading.
