@@ -64,7 +64,7 @@ Some explanations spanned multiple paragraphs but got split across chunk boundar
 ### No Conversational Memory
 Each query was processed independently.Follow up questions like “How does that affect marathon pacing?” weren’t contextually linked to previous answers.
 
-## Context Interpretation Quirks
+### Context Interpretation Quirks
 Because the texts mixes technical running documents with the full text of 1984, the system sometimes interprets questions in unexpected ways. When a query includes words that appear in the novel (like “stars,” “astronomy,” or “planets”), the similarity search may surface literary passages instead of scientific explanations. This leads to answers that blend accurate information with unrelated narrative context. It’s not hallucination, but rather a side effect of embedding based retrieval in a small, mixed-domain dataset where semantic overlap can be misleading.
 
 ---
