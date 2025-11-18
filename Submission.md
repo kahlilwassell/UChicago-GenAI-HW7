@@ -5,7 +5,7 @@
 
 ## 1. Documents Used
 
-For this assignment, I intentionally included documents across multiple file types to fully test the system’s ability to handle varied inputs. Instead of relying solely on PDFs, I incorporated Markdown and plain text files to meet the mixed file format requirement.
+For this assignment I intentionally included documents across multiple file types to fully test the system’s ability to handle varied inputs. Instead of relying solely on PDFs, I incorporated Markdown and plain text files to meet the mixed file format requirement.
 
 Documents included:
 
@@ -62,16 +62,16 @@ Even though the system worked well overall, a few limitations stood out.
 Some explanations spanned multiple paragraphs but got split across chunk boundaries. As a result, the model occasionally answered from an incomplete conceptual slice.
 
 ### No Conversational Memory
-Each query was processed independently.Follow up questions like “How does that affect marathon pacing?” weren’t contextually linked to previous answers.
+Each search was processed independently.Follow up questions like “How does that affect marathon pacing?” weren’t contextually linked to previous answers.
 
 ### Context Interpretation Quirks
-Because the texts mixes technical running documents with the full text of 1984, the system sometimes interprets questions in unexpected ways. When a query includes words that appear in the novel (like “stars,” “astronomy,” or “planets”), the similarity search may surface literary passages instead of scientific explanations. This leads to answers that blend accurate information with unrelated narrative context. It’s not hallucination, but rather a side effect of embedding based retrieval in a small, mixed-domain dataset where semantic overlap can be misleading.
+Because the texts mixes technical running documents with the full text of 1984, the system sometimes interprets questions in unexpected ways. When a search includes words that appear in the novel (like “stars,” “astronomy,” or “planets”), the similarity search may surface literary passages instead of scientific explanations. This leads to answers that blend accurate information with unrelated narrative context. It’s not hallucination, but rather a side effect of embedding based retrieval in a small, mixed-domain dataset where semantic overlap can be misleading.
 
 ---
 
 ## 4. Possible Improvements
 
-If I were to extend this system, I would explore:
+If I were to extend this system, I would explore...
 
 - **Multi turn conversational memory**  
   Persist the conversation history in the prompt to support more natural follow-up questions.
